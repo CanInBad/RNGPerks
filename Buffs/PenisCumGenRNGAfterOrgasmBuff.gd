@@ -10,7 +10,8 @@ func _init():
 
 func initBuff(_args):
 	amount = _args[0]
-	if _args[1]!=null:
+	chance = 30 # default
+	if _args[1]!=null and typeof(_args[1]) == TYPE_INT:
 		match _args[1]: # capping?
 			[-9999, 0]: # they don't allow open pattern so this have to do?
 				chance = 0
