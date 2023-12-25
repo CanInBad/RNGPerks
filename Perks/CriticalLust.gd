@@ -23,7 +23,7 @@ func getCost():
 	return 16
 
 func getPicture():
-	return "res://Modules/Z_Hypertus/Images/Perks/crit.png"
+	return "res://Modules/RNGPerks/Images/lustCritical.png"
 
 func getBuffs():
 	return [

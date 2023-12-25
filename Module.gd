@@ -10,13 +10,17 @@ func _init():
 	]
 	perks = [
 		"res://Modules/RNGPerks/Perks/CumStudV3.gd",
-		"res://Modules/RNGPerks/Perks/Dramaturgy.gd"
+		"res://Modules/RNGPerks/Perks/Dramaturgy.gd",
+		"res://Modules/RNGPerks/Perks/CriticalLust.gd",
+		"res://Modules/RNGPerks/Perks/CriticalCombat.gd"
 	]
 	items = [
 		"res://Modules/RNGPerks/Items/Weapons/Flashlight.gd",
 	]
 	buffs = [
-		"res://Modules/RNGPerks/Buffs/PenisCumGenRNGAfterOrgasmBuff.gd"
+		"res://Modules/RNGPerks/Buffs/PenisCumGenRNGAfterOrgasmBuff.gd",
+		"res://Modules/RNGPerks/Buffs/LustDamageBuffRNG.gd",
+		"res://Modules/RNGPerks/Buffs/PhysicalDamageBuffRNG.gd"
 	]
 	statusEffects = [
 		"res://Modules/RNGPerks/StatusEffect/DramaturgySuccess.gd",

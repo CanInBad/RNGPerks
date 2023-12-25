@@ -41,3 +41,5 @@ func loadData(_data):
 func combine(_otherBuff):
 	if(_otherBuff.amount > amount):
 		amount = _otherBuff.amount
+	if(_otherBuff.chance > chance):
+		chance = _otherBuff.chance
