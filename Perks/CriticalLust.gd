@@ -23,7 +23,7 @@ func getCost():
 	return 16
 
 func getPicture():
-	return "res://Modules/RNGPerks/Images/lustCritical.png"
+	return "res://Modules/RNGPerks/Images/lustCritical2.png"
 
 func getBuffs():
 	return [
